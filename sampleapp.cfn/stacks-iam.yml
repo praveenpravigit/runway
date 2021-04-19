@@ -1,0 +1,11 @@
+namespace: ${namespace}
+
+sys_path: ./
+
+stacks:
+  iamuser:
+     template_path: templates/iam.yml
+     variables:
+       StackName: ${default iam__stack__name::undefined}
+       MyPass: ${default iam__mypass__name::undefined}
+

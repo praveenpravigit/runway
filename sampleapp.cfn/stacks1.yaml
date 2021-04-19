@@ -1,0 +1,8 @@
+namespace: ${namespace}
+
+sys_path: ./
+
+stacks:
+  ec2:
+    template_path: templates/ec2.yml
+      
